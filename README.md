@@ -1,6 +1,6 @@
 # Proyecto Base de Datos No Relacionales (MongoDB)
 
-## 💡 Idea del proyecto
+## Idea del proyecto
 Este proyecto desarrolla un sistema que **lee datos de sensores DHT11 conectados a un Arduino**, los **envía a través del puerto serie** a un programa en **Java**, que luego **almacena los datos en una base de datos MongoDB**.  
 
 Posteriormente, otra aplicación en Java **recupera los datos y los muestra en una interfaz gráfica (Swing)**, permitiendo filtrarlos y visualizar temperaturas y humedades destacadas con colores.
@@ -27,10 +27,10 @@ Posteriormente, otra aplicación en Java **recupera los datos y los muestra en u
 
 ---
 
-## 🧩 Estructura del código
+## Estructura del código
 
 ### 1. Arduino – `RecibirDatos.ino`
-- Lee los datos de temperatura y humedad desde dos sensores DHT11.  
+- Lee los datos de temperatura y humedad desde dos sensores DHT11  
 - Envía los datos en formato **JSON** por el puerto serie cada 2 segundos.  
 - Incluye comprobaciones para evitar valores nulos.  
 
@@ -83,15 +83,13 @@ Posteriormente, otra aplicación en Java **recupera los datos y los muestra en u
 
 ---
 
-## 🎯 Finalidad del proyecto
+## Finalidad del proyecto
 El sistema permite:
 - Monitorear en tiempo real las lecturas de múltiples sensores.  
 - Almacenar los datos de manera estructurada en MongoDB.  
 - Consultar y visualizar la información en una interfaz clara e interactiva.  
 
-Este proyecto demuestra la integración entre **hardware (Arduino)**, **software (Java)** y **bases de datos NoSQL (MongoDB)**, aplicando conceptos de programación, electrónica y persistencia de datos.
 
----
 
 
 
