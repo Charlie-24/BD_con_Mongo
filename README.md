@@ -5,6 +5,8 @@ Este proyecto desarrolla un sistema que **lee datos de sensores DHT11 conectados
 
 Posteriormente, otra aplicación en Java **recupera los datos y los muestra en una interfaz gráfica (Swing)**, permitiendo filtrarlos y visualizar temperaturas y humedades destacadas con colores.
 
+![Estructura](IMG/Estructura.png)
+
 ---
 
 ## ⚙️ Componentes necesarios
@@ -24,6 +26,8 @@ Posteriormente, otra aplicación en Java **recupera los datos y los muestra en u
 **Lenguajes empleados:**
 - **Java:** lógica del sistema, conexión con MongoDB y GUI con Swing.  
 - **Arduino (C/C++):** control de sensores y envío de datos por puerto serie.  
+
+![Herramientas](IMG/Herramientas.png)
 
 ---
 
